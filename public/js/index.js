@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
 
   const location = search.value;
   if (location) {
-    fetch(`http://localhost:4000/weather?search=${location}`).then((res) => {
+    fetch(`/weather?search=${location}`).then((res) => {
       if (res.status == 400) return console.log('Error search Location');
       res.json().then((data) => {
         weather_icons.src = data.weather_icons;
