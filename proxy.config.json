@@ -1,0 +1,7 @@
+{
+  "/api*": {
+    "target":"https://calm-springs-61670.herokuapp.com",
+    "secure":false,
+    "logLevel":"debug"
+  }
+}
