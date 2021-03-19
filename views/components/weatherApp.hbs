@@ -1,0 +1,23 @@
+<div>
+  <form action="" class="weather-form">
+    <span>Find your City</span>
+    <input type="text">
+    <button>Search</button>
+  </form>
+  <ul class="weather-location">
+    <li id="country">{{location.country}}</li>
+    <li id="region">{{location.region}}</li>
+    <li id="name">{{location.name}}</li>
+  </ul>
+  <div class="d-flex">
+    <img id="weather_icons" class="weather-icon" src="{{weather_icons}}" alt="icon">
+    <span id="weather_descriptions" class="weather-descrip">{{weather_descriptions}}</span>
+  </div>
+  <ul class="weather-params">
+    <li>Temperature: <span id="temperature">{{temperature}}</span> </li>
+    <li>Feels like: <span id="feelslike">{{feelslike}}</span></li>
+    <li>Pressure: <span id="pressure">{{pressure}}</span></li>
+    <li>Wind direction: <span id="wind_dir">{{wind_dir}}</span></li>
+    <li>Wind speed: <span id="wind_speed">{{wind_speed}}</span></li>
+  </ul>
+</div>
