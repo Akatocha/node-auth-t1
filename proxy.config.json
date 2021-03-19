@@ -1,6 +1,6 @@
 {
-  "/api*": {
-    "target":"https://calm-springs-61670.herokuapp.com",
+  "/weather*": {
+    "target":"https://gentle-meadow-78389.herokuapp.com",
     "secure":false,
     "logLevel":"debug"
   }
